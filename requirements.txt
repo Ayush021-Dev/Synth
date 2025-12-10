@@ -1,0 +1,24 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Audio Processing
+torch==2.1.1
+torchaudio==2.1.1
+audiocraft==1.0.0
+
+# Async Support
+aiofiles==23.2.1
+python-multipart==0.0.6
+
+# Utilities
+python-dotenv==1.0.0
+
+# Optional: Production Server
+gunicorn==21.2.0
+python-json-logger==2.0.7
+
+# Optional: Monitoring
+psutil==5.9.6
